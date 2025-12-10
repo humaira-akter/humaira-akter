@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result Archive | Feni Polytechnic Institute</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    Feni<span>Poly</span>
+                </a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="departments.html">Departments</a></li>
+                    <li><a href="teachers.html">Teachers</a></li>
+                    <li><a href="notices.html">Notices</a></li>
+                    <li><a href="result.html" class="active">Result</a></li>
+                    <li><a href="login.html" class="btn btn-primary" style="padding: 8px 20px; color: white;">Login</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container" style="padding-top: 60px; padding-bottom: 80px;">
+        <div class="section-title">
+            <h2>Result Archive</h2>
+            <p>Check your semester final results online</p>
+        </div>
+
+        <div class="result-container">
+            <div class="result-search-box">
+                <input type="text" placeholder="Enter Role Number (e.g., 501234)">
+                <input type="text" placeholder="Enter Registration Number (e.g., 1502034056)">
+                <select>
+                    <option>Select Power</option>
+                    <option>1st Semester</option>
+                    <option>2nd Semester</option>
+                    <option>3rd Semester</option>
+                    <option>4th Semester</option>
+                    <option selected>5th Semester</option>
+                    <option>6th Semester</option>
+                    <option>7th Semester</option>
+                    <option>8th Semester</option>
+                </select>
+                <button class="btn btn-primary">Search Result</button>
+            </div>
+
+            <!-- Mock Result Display -->
+            <div
+                style="text-align: center; border-bottom: 2px dashed #e5e7eb; padding-bottom: 20px; margin-bottom: 20px;">
+                <h3 style="color: var(--primary); margin-bottom: 5px;">Feni Polytechnic Institute</h3>
+                <p style="font-weight: 600;">5th Semester Final Examination Result - 2025</p>
+            </div>
+
+            <div style="display: flex; justify-content: space-between; margin-bottom: 20px; font-size: 0.95rem;">
+                <div>
+                    <p><strong>Name:</strong> Humaira Akter</p>
+                    <p><strong>Roll:</strong> 683073</p>
+                    <p><strong>Technology:</strong> Computer</p>
+                </div>
+                <div style="text-align: right;">
+                    <p><strong>Session:</strong> 2021-22</p>
+                    <p><strong>Reg No:</strong> 1502227243</p>
+                </div>
+            </div>
+
+            <table style="width: 100%; border-collapse: collapse; margin-bottom: 20px;">
+                <tr style="background: #f3f4f6;">
+                    <th style="padding: 10px; border: 1px solid #d1d5db; color: var(--text-main);">Subject Code</th>
+                    <th style="padding: 10px; border: 1px solid #d1d5db; color: var(--text-main);">Subject Name</th>
+                    <th style="padding: 10px; border: 1px solid #d1d5db; color: var(--text-main);">Grade</th>
+                    <th style="padding: 10px; border: 1px solid #d1d5db; color: var(--text-main);">GPA</th>
+                </tr>
+                <tr>
+                    <td style="padding: 10px; border: 1px solid #d1d5db; text-align: center;">66651</td>
+                    <td style="padding: 10px; border: 1px solid #d1d5db;">Programming in Java</td>
+                    <td style="padding: 10px; border: 1px solid #d1d5db; text-align: center;">A+</td>
+                    <td style="padding: 10px; border: 1px solid #d1d5db; text-align: center;">4.00</td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px; border: 1px solid #d1d5db; text-align: center;">66652</td>
+                    <td style="padding: 10px; border: 1px solid #d1d5db;">Web Development Project</td>
+                    <td style="padding: 10px; border: 1px solid #d1d5db; text-align: center;">A+</td>
+                    <td style="padding: 10px; border: 1px solid #d1d5db; text-align: center;">4.00</td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px; border: 1px solid #d1d5db; text-align: center;">66653</td>
+                    <td style="padding: 10px; border: 1px solid #d1d5db;">Surveillance Security</td>
+                    <td style="padding: 10px; border: 1px solid #d1d5db; text-align: center;">A</td>
+                    <td style="padding: 10px; border: 1px solid #d1d5db; text-align: center;">3.75</td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px; border: 1px solid #d1d5db; text-align: center;">66654</td>
+                    <td style="padding: 10px; border: 1px solid #d1d5db;">Operating System Applications</td>
+                    <td style="padding: 10px; border: 1px solid #d1d5db; text-align: center;">A+</td>
+                    <td style="padding: 10px; border: 1px solid #d1d5db; text-align: center;">4.00</td>
+                </tr>
+            </table>
+
+            <div class="cgpa-box">
+                <p>Semester GPA</p>
+                <h2>3.92</h2>
+                <span style="color: var(--primary); font-weight: 600;">(Outstanding)</span>
+            </div>
+
+            <div style="text-align: center; margin-top: 20px;">
+                <button class="btn btn-secondary" onclick="window.print()"><i class="fa-solid fa-print"></i> Print
+                    Result</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="copyright">
+                <p>&copy; 2025 Feni Polytechnic Institute. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
